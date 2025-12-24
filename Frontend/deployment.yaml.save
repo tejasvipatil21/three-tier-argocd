@@ -18,7 +18,6 @@ spec:
         image: 302263040775.dkr.ecr.ap-south-1.amazonaws.com/frontend:latest
         env:
         - name: BACKEND_URL
-          value: "http://backend.three-tier.svc.cluster.local:3000"
+          value: "http://backend:3000"
         ports:
-        - containerPort: 80
-
+        
